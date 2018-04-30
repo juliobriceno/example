@@ -2,6 +2,11 @@ let app = require('express')();
 let http = require('http').Server(app);
 let io = require('socket.io')(http);
 
+app.use((req, res, next) => {
+  res.writeHead(200);
+  res.end('hello world\n');
+});
+
 io.on('connection', (socket) => {
 
   socket.on('disconnect', function(){

@@ -1,0 +1,15 @@
+{
+  "name": "servernode",
+  "version": "1.0.0",
+  "description": "Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "x"
+  },
+  "author": "Julio Briceno",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.0"
+  }
+}

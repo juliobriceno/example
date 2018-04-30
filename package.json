@@ -4,7 +4,8 @@
   "description": "Example",
   "main": "index.js",
   "scripts": {
-    "test": "x"
+    "test": "x",
+    "start": "node index.js"    
   },
   "author": "Julio Briceno",
   "license": "ISC",
